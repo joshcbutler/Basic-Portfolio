@@ -1,0 +1,30 @@
+.header {
+	background-color: #ffffff;
+}
+
+#logo {
+
+}
+
+.body {
+	width:960px;
+	background-color: ;
+}
+
+.main {
+	width:650px;
+}
+
+#aside {
+	width:270px;
+}
+
+.teal-background {
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.teal {
+	color: #4aaaa5;
+}
