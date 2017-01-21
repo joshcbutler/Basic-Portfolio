@@ -8,40 +8,40 @@
 
 <body>
     <header>
-        <h1 class="header" id="logo">Contact Me</h1>
-        <nav>
-            <ul>
-                <li class="logo-buttons">About</li>
-                <li class="logo-buttons">Portfolio</li>
-                <li class="logo-buttons">Contact</li>
-            </ul>
-        </nav>
+        <ul>
+            <l1 class="header-style" id="logo">Contact Me</l1>
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </header>
     <section id="main">
-        <h1>Contact</h1>
+        <h1 class="header-style">Contact</h1>
+        <hr>
+        <br>
         <form>
-            <label for="name">Name</label>
-            <br>
-            <input id="name" type="text" value="John Smith">
-            <br>
-            <label for="email">Email</label>
-            <br>
-            <input autocomplete="on" required id="email" id="email" type="text" value="example@gmail.com">
-            <br>
-            <label for="message">Message</label>
-            <br>
-            <input required id="message" type="text">
-            <br>
-            <button type="submit" value="submit">Submit</button>
+            <label for="name">Name
+                <input id="name" type="text" value="John Smith">
+            </label>
+            <label for="email">Email
+                <input autocomplete="on" required id="email" id="email" type="text" value="example@gmail.com">
+            </label>
+            <label for="message">Message
+                <textarea rows="20" cols="1" required id="message" type="text"></textarea>
+            </label>
+            <button href="mailto:joshcbutler@gmail.com type="submit" value="submit">Submit</button>
         </form>
     </section>
-        <aside class="light" id="aside">
-            <h2>Connect with Me</h2>
-            <a href="https://github.com/joshcbutler"><img src="assets\images\Github-icon.png" alt="Github" style="width:60px;height:60px"></a>
-            <a href="https://www.linkedin.com/in/joshua-butler-87bb0260"><img src="assets\images\linkedin-512.png" alt="Linkedin" style="width:60px;height:60px"></a>
-            <a href="http://stackoverflow.com/users/7443050/joshcbutler"><img src="assets\images\Stack-overflow.png" alt="Stack-overflow" style="width:60px;height:60px"></a>
-        </aside>
-        <footer class="light" id="footer">&copy; Copyright 2017 Joshua Butler</footer>
+    <aside>
+        <h2 class="header-style" id="sidebar-header">Connect with Me</h2>
+        <br>
+        <hr>
+        <br>
+        <a href="https://github.com/joshcbutler"><img src="assets/images/Github-icon.png" alt="Github" style="width:60px;height:60px"></a>
+        <a href="https://www.linkedin.com/in/joshua-butler-87bb0260"><img src="assets/images/linkedin-512.png" alt="Linkedin" style="width:60px;height:60px"></a>
+        <a href="http://stackoverflow.com/users/7443050/joshcbutler"><img src="assets/images/Stack-overflow.png" alt="Stack-overflow" style="width:60px;height:60px"></a>
+    </aside>
+    <footer>&copy; Copyright 2017 Joshua Butler</footer>
 </body>
 
 </html>
